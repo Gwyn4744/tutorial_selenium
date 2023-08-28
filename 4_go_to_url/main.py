@@ -6,7 +6,7 @@ from selenium import webdriver
 
 def main():
     driver = webdriver.Firefox()
-    driver.get("https://www.google.pl")
+    driver.get("https://inthou.pl/")
     driver.quit()
 
 if __name__ == '__main__':
